@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("../img/sfondoboolean.png");
+    background-size: cover;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+
+header {
+  border-bottom: 3px solid black;
+}
+
+main {
+    font-family: 'Noto Sans SC', sans-serif;
+}
+
+footer {
+    font-family: 'Roboto', sans-serif;
+}
+
+.left {
+    padding-left: 0px;
+}
+
+#messaggi {
+    border-bottom: 3px solid black;
+}
+
+.cerchio {
+  height: 35px;
+  width: 35px;
+  background-color: orange;
+  border-radius: 50%;
+  display: inline-block;
+  text-align:center;
+  vertical-align: middle
+}
+
+#sezioni {
+    padding: 5px;
+    border: 1px solid black;
+}
+
+.grigio {
+    background-color: #929292;
+}
+
+em {
+    color: grey;
+}
